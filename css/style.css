@@ -18,3 +18,10 @@ button {/*change the buttons*/
     font-size: 25px;
     border-radius: 12px;
 }
+
+/* CSS Reset suggested by chatgpt*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
