@@ -1,3 +1,13 @@
+html, body {/*chatgpt gave me this to reset browser changes*/
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+div {/*using for debug*/
+  border: none !important;
+}
+
+
 body {/*change the general page*/
     background-color: rgb(204, 213, 246);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
