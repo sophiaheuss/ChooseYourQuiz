@@ -3,7 +3,6 @@ html, body {/*chatgpt gave me this to reset browser changes -> get rid of weird 
   margin: 0;
   padding: 0;
 }
-
 body {/*change the general page*/
     background-color: rgb(204, 213, 246);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +23,6 @@ button {/*change the buttons*/
     font-size: 25px;
     border-radius: 12px;
 }
-nav {
+nav {/*Make the image on home page appear lower*/
     margin-bottom: 30px;
 }
