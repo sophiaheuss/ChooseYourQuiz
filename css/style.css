@@ -1,12 +1,8 @@
-html, body {/*chatgpt gave me this to reset browser changes*/
+html, body {/*chatgpt gave me this to reset browser changes -> get rid of weird spacing caused by browser*/
   height: 100%;
   margin: 0;
   padding: 0;
 }
-div {/*using for debug*/
-  border: none !important;
-}
-
 
 body {/*change the general page*/
     background-color: rgb(204, 213, 246);
