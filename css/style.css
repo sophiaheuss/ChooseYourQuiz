@@ -1,0 +1,20 @@
+body {/*change the general page*/
+    background-color: rgb(204, 213, 246);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+div {/*change the question sections*/
+    border: 2px solid rgb(82, 118, 154);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+button {/*change the buttons*/
+    background-color: rgb(255, 230, 252);
+    font-family: 'Trebuchet MS', Arial;
+    /*Make buttons appear bigger*/
+    font-size: 25px;
+    border-radius: 12px;
+}

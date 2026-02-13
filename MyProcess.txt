@@ -1,0 +1,33 @@
+Direct Supply's 'Option 1: Quiz' Kata -> by Sophia Heuss
+In this file, I will keep track of my thought process and steps I take to make this app.
+
+Steps:
+ 1. Generally think about the steps I need to take for building a quiz app
+ 2. Make an index.html file that holds the simple outline of the web app
+ 3. Brainstorm the layout of the website (and pages)
+ 4. Make some theme options for user to choose from
+ 5. Create a divider to hold each question and answer pairs -> double loop
+ 6. Keep the user updated on if they are getting questions correct (score)
+ 7. Allow users to take the quiz again or go back to home to pick a different theme
+ 8. Present final score and feedback after finishing quiz
+
+Notes:
+- Currently learning javascript in a class right now, so I knew that fetching might be hard, but Youtube is usually my go to for concepts I understand loosely
+- I started with a list (html element), but I knew I wanted to make it into buttons later on -> I ended up making buttons
+- Found myself stuck on branching to a new page and using a specific API -> asked chatgpt to explain how to do this in javascript
+- Needed to look at my old projects for basic starter html setup 
+- I love to step by step comment my code -> this helps me!
+- I knew I wanted the answer choices shuffled, but needed to research how
+- API was giving weird looking answers, so I asked chatgpt how to format it to look like plain text
+- When I clicked a quiz, went home, then went back to the page nothing came up. I didn't understand why, so I put it into chatgpt to explain.
+    - Chatgpt said it had something to do with browser caching.
+
+Resources Used:
+- Chatgpt -> to understand how to branch off into a new page using a specific API after a specific button was pressed
+- Chatgpt -> syntax for filling the content inside the h3 element tags
+- https://www.geeksforgeeks.org/javascript/how-to-shuffle-an-array-using-javascript/
+    - The above link was used for the Fisher-Yates shuffle (shuffling the answers)
+- Chatgpt -> how to write a helper method to decode the weird looking HTML answers given by the API
+- CS571 class notes/slideshow -> syntax/styling
+- Chatgpt -> for auto scrolling when elements get added and when quiz is done
+- https://opentdb.com/api_config.php -> API (quiz questions)
