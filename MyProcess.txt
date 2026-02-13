@@ -22,7 +22,8 @@ Notes:
 - When I clicked a quiz, went home, then went back to the page nothing came up. I didn't understand why, so I put it into chatgpt to explain.
     - Chatgpt said it had something to do with browser caching.
 - When I first uploaded this project to github, extra border panes showed up at the bottom of the index.html
-    - I figured out that I had to reset the default height, margin, and padding -> chatgpt suggested this
+    - I figured out that I had to reset the default height, margin, and padding -> chatgpt suggested this 
+    - I ended up removing the borders on questions because it felt too busy
 
 Resources Used:
 - Chatgpt -> to understand how to branch off into a new page using a specific API after a specific button was pressed
